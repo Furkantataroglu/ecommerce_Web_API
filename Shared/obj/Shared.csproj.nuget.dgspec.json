@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\furka\\Desktop\\Staj\\Directory\\Shared\\Shared.csproj": {}
+    "C:\\Users\\furka\\Desktop\\MVC_User_guide\\Subü\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\furka\\Desktop\\Staj\\Directory\\Shared\\Shared.csproj": {
+    "C:\\Users\\furka\\Desktop\\MVC_User_guide\\Subü\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\Desktop\\Staj\\Directory\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\furka\\Desktop\\MVC_User_guide\\Subü\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\furka\\Desktop\\Staj\\Directory\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\furka\\Desktop\\MVC_User_guide\\Subü\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\Desktop\\Staj\\Directory\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\furka\\Desktop\\MVC_User_guide\\Subü\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\furka\\Desktop\\Staj\\Directory\\MVC\\MVC.csproj": {}
+    "C:\\Users\\furka\\Desktop\\MVC_User_guide\\Subü\\MVC\\MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\furka\\Desktop\\Staj\\Directory\\MVC\\MVC.csproj": {
+    "C:\\Users\\furka\\Desktop\\MVC_User_guide\\Subü\\MVC\\MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\Desktop\\Staj\\Directory\\MVC\\MVC.csproj",
+        "projectUniqueName": "C:\\Users\\furka\\Desktop\\MVC_User_guide\\Subü\\MVC\\MVC.csproj",
         "projectName": "MVC",
-        "projectPath": "C:\\Users\\furka\\Desktop\\Staj\\Directory\\MVC\\MVC.csproj",
+        "projectPath": "C:\\Users\\furka\\Desktop\\MVC_User_guide\\Subü\\MVC\\MVC.csproj",
         "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\Desktop\\Staj\\Directory\\MVC\\obj\\",
+        "outputPath": "C:\\Users\\furka\\Desktop\\MVC_User_guide\\Subü\\MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
