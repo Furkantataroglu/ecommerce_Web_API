@@ -9,8 +9,9 @@ using System.Threading.Tasks;
 namespace Shared.Data.Abstract
 {
     //bu generic repository
-    public interface IEntityRepository<T> where T : class, IEntity
+    public interface IEntityRepository<T> where T : class, IEntity ,new()
     {
+        Task<T> GetByIdAsync(int id);
         //repository.GetAsync(p=>p.Id == 15) gibi bir kullanımı olacak
         Task<T> GetAsync(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includeProperties);
         Task<IList<T>> GetAllAsync(Expression<Func<T, bool>> predicate = null, params Expression<Func<T, object>>[] includeProperties); //predicate null alırsak tüm her şeyi getirir bir parametre verirsek ona göre listeler
