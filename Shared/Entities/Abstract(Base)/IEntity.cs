@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shared.Entities.Abstarct_Base_
+namespace Shared.Entities.Abstract_Base_
 {
-    public interface IEntity
+    public  interface IEntity
     {
     }
 }

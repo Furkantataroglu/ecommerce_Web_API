@@ -1,5 +1,5 @@
 ﻿using Shared.Entities.Abstarct;
-using Shared.Entities.Abstarct_Base_;
+using Shared.Entities.Abstract_Base_;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Concrete
 {
-    public class User:EntityBase<int>,IEntity
+    public class User:EntityBase,IEntity
     {
         //override örneği
         // public override DateTime CreatedDate { get => base.CreatedDate; set => base.CreatedDate = value; }

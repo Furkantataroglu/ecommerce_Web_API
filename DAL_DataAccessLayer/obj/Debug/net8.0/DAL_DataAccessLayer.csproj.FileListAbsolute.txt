@@ -1,0 +1,12 @@
+C:\Users\furka\Desktop\MVC_User_guide\Subü\DAL_DataAccessLayer\bin\Debug\net8.0\DAL_DataAccessLayer.deps.json
+C:\Users\furka\Desktop\MVC_User_guide\Subü\DAL_DataAccessLayer\bin\Debug\net8.0\DAL_DataAccessLayer.dll
+C:\Users\furka\Desktop\MVC_User_guide\Subü\DAL_DataAccessLayer\bin\Debug\net8.0\DAL_DataAccessLayer.pdb
+C:\Users\furka\Desktop\MVC_User_guide\Subü\DAL_DataAccessLayer\obj\Debug\net8.0\DAL_DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\furka\Desktop\MVC_User_guide\Subü\DAL_DataAccessLayer\obj\Debug\net8.0\DAL_DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\furka\Desktop\MVC_User_guide\Subü\DAL_DataAccessLayer\obj\Debug\net8.0\DAL_DataAccessLayer.AssemblyInfo.cs
+C:\Users\furka\Desktop\MVC_User_guide\Subü\DAL_DataAccessLayer\obj\Debug\net8.0\DAL_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\furka\Desktop\MVC_User_guide\Subü\DAL_DataAccessLayer\obj\Debug\net8.0\DAL_DataAccessLayer.sourcelink.json
+C:\Users\furka\Desktop\MVC_User_guide\Subü\DAL_DataAccessLayer\obj\Debug\net8.0\DAL_DataAccessLayer.dll
+C:\Users\furka\Desktop\MVC_User_guide\Subü\DAL_DataAccessLayer\obj\Debug\net8.0\refint\DAL_DataAccessLayer.dll
+C:\Users\furka\Desktop\MVC_User_guide\Subü\DAL_DataAccessLayer\obj\Debug\net8.0\DAL_DataAccessLayer.pdb
+C:\Users\furka\Desktop\MVC_User_guide\Subü\DAL_DataAccessLayer\obj\Debug\net8.0\ref\DAL_DataAccessLayer.dll
