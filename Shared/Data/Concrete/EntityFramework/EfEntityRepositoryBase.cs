@@ -73,12 +73,13 @@ namespace Shared.Data.Concrete.EntityFramework
 
         public async Task<TEntity> GetByIdAsync(int id)
         {
-
+            
+            return await _context.Set<TEntity>().FindAsync(id);
         }
 
         public async Task UpdateAsync(TEntity entity)
         {
-             await Task.Run(() => { _context.Set<TEntity>().Update(entity) });
+            await Task.Run(() => { _context.Set<TEntity>().Update(entity); });
         }
     }
 }
