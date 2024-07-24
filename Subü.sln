@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{C66BFA0E-E2F8-43E2-8631-004427411976}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{BF501A74-4EA1-4311-8872-DBDC73A62010}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{BF501A74-4EA1-4311-8872-DBDC73A62010}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{D388B402-AFDF-4616-8DA9-3C5B5302B300}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC(presentation)", "MVC\MVC(presentation).csproj", "{D388B402-AFDF-4616-8DA9-3C5B5302B300}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
