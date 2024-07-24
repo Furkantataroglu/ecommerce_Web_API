@@ -1,6 +1,7 @@
 ﻿using DAL_DataAccessLayer.Abstarct;
 using DAL_DataAccessLayer.EntityFramework.Contexts;
 using DAL_DataAccessLayer.EntityFramework.InterfaceRepositories;
+using DAL_DataAccessLayer.EntityFramework.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,22 +13,28 @@ namespace DAL_DataAccessLayer.UnitOfWork
     public class UnitOfWork : IUnitOfWork
     {
         private readonly MyDbContext _context;
+        private UserRepository _userRepository;
+        private RoleRepository _roleRepository;
+        //private HospitalRepository _hospitalRepository gibi
 
         public UnitOfWork(MyDbContext context)
         {
             _context = context;
         }
+                                                        //?? değer null ise alternatif kodu çalıştırır
+        public IUserRepository Users => _userRepository ?? new UserRepository(_context);
+        public IRoleRepository Roles => _roleRepository ?? new RoleRepository(_context);
+        //public IHospitalRepository Hospitals => _hospitalRepository ?? new UserRepository(_context);
 
-        public IUserRepository Users { get; }
-
-        public void Dispose()
+        public async Task<int> SaveAsync()
         {
-            throw new NotImplementedException();
+            return await _context.SaveChangesAsync();
         }
 
-        public Task<int> SaveAsync()
+        //Kaldırma
+        public async ValueTask DisposeAsync()
         {
-            throw new NotImplementedException();
+            await _context.DisposeAsync();
         }
     }
 }

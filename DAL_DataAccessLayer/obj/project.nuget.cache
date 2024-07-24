@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GGumGpTG83pKsODFD420z69gHWtEIVTE9KE9f8Xyn+jNf8vsqo96ULAoKvgu9h01Z+/VxhcpExn5FkxEW1VbxQ==",
+  "dgSpecHash": "RjkEhliL0qezDKpJ5+OyDuRJjRef3P9cCz28BE7vLraOjUK3zzfwnFKQxq5rpi8709AU2ZM8w2fMUAOLdIm0HA==",
   "success": true,
   "projectFilePath": "C:\\Users\\furka\\Desktop\\Subu\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.7\\microsoft.entityframeworkcore.design.8.0.7.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.7\\microsoft.entityframeworkcore.relational.8.0.7.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.7\\microsoft.entityframeworkcore.sqlserver.8.0.7.nupkg.sha512",
+    "C:\\Users\\furka\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.7\\microsoft.entityframeworkcore.tools.8.0.7.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

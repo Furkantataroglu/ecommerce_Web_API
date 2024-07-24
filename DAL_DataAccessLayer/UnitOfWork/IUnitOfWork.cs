@@ -9,9 +9,10 @@ using System.Threading.Tasks;
 namespace DAL_DataAccessLayer.Abstarct
 {
     //repositorylerimizi tek bir yerde yönetmemizi sağlar .databaseye kaydetme işlemlerini kolaylaştırıyor ve her seferinde New Oluşturmamıza gerek kalmıyor.
-    public interface IUnitOfWork:IDisposable
+    public interface IUnitOfWork:IAsyncDisposable
     {
         IUserRepository Users { get; } //unitofwork.Users gibi bir çağırım. 
+        IRoleRepository Roles { get; }
         //IHospitalRepository Hospitals {get;}  gibi
         Task<int> SaveAsync();
         
