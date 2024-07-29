@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GWDMwXKuu0XyeKfGBxiIrj6broGcZ1f+C+Cx+Ta9jdmLvQPC1H2r5GGxGEbvAyk5roWUVgNgciNKGcjAlcrKyQ==",
+  "dgSpecHash": "FReQPdXkJw99FyY7Ywxpxu9deYvprDk6hamSM61Uy5FjvfFNpoZIYD2YPmobkl14W53OnreD9acV2MxrT3kAjg==",
   "success": true,
   "projectFilePath": "C:\\Users\\furka\\Desktop\\Subu\\Services\\Services.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\furka\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

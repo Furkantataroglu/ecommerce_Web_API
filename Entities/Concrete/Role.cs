@@ -11,6 +11,8 @@ namespace Entities.Concrete
     public class Role:EntityBase,IEntity
     {
         public string Name { get; set; }
+        public string LastName { get; set; }
+        public string email { get; set; }
         //fk için
         public ICollection<User> Users { get; set; }
     }

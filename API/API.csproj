@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DAL_DataAccessLayer\DAL_DataAccessLayer.csproj" />
+    <ProjectReference Include="..\Services\Services.csproj" />
     <ProjectReference Include="..\Shared\Shared.csproj" />
   </ItemGroup>
 
