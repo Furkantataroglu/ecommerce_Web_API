@@ -19,7 +19,7 @@ namespace Shared.Data.Concrete.EntityFramework
         }
         public async Task AddAsync(TEntity entity)
         {
-            await _context.Set<IEntity>().AddAsync(entity);
+            await _context.Set<TEntity>().AddAsync(entity);
         }
 
         public async Task<bool> AnyAsync(Expression<Func<TEntity, bool>> predicate)
@@ -34,7 +34,7 @@ namespace Shared.Data.Concrete.EntityFramework
 
         public async Task DeleteAsync(TEntity entity)
         {
-            await Task.Run(() => { _context.Set<IEntity>().Remove(entity); });
+            await Task.Run(() => { _context.Set<TEntity>().Remove(entity); });
         }
 
         public async Task<IList<TEntity>> GetAllAsync(Expression<Func<TEntity, bool>> predicate = null, params Expression<Func<TEntity, object>>[] includeProperties)

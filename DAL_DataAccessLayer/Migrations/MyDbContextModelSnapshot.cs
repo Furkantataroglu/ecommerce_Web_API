@@ -76,8 +76,7 @@ namespace DAL_DataAccessLayer.Migrations
 
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool?>("IsDeleted")
                         .HasColumnType("bit");
@@ -90,10 +89,9 @@ namespace DAL_DataAccessLayer.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Password")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("RoleId")
+                    b.Property<int?>("RoleId")
                         .HasColumnType("int");
 
                     b.Property<string>("UpdatedBy")
@@ -110,9 +108,7 @@ namespace DAL_DataAccessLayer.Migrations
                 {
                     b.HasOne("Entities.Concrete.Role", "Role")
                         .WithMany("Users")
-                        .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("RoleId");
 
                     b.Navigation("Role");
                 });

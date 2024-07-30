@@ -13,10 +13,10 @@ namespace Entities.Dtos
         public int Id { get; set; }
         [Required(ErrorMessage = "Required")]
         [MaxLength(50)]
-        public string Name { get; set; }
+        public string FirstName { get; set; }
         [Required(ErrorMessage = "Required")]
         [MaxLength(50)]
-        public string Surname { get; set; }
+        public string LastSurname { get; set; }
         public string Email { get; set; }
     }
 }
