@@ -77,9 +77,13 @@ namespace Shared.Data.Concrete.EntityFramework
             return await _context.Set<TEntity>().FindAsync(id);
         }
 
+   
+
         public async Task UpdateAsync(TEntity entity)
         {
             await Task.Run(() => { _context.Set<TEntity>().Update(entity); });
         }
+
+  
     }
 }

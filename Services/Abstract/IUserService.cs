@@ -17,7 +17,8 @@ namespace Services.Abstract
         Task<IResult> Add(UserAddDto userAddDto); // Kullanıcı ekleme
         Task<IResult> Update(UserUpdateDto userUpdateDto); // Kullanıcı güncelleme
         Task<IResult> Delete(int userId); // Kullanıcı silm
-        
+
+                
 
     }
 }

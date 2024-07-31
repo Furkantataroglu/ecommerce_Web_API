@@ -12,10 +12,10 @@ namespace Entities.Concrete
     {
         //override örneği
         // public override DateTime CreatedDate { get => base.CreatedDate; set => base.CreatedDate = value; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
         public string? Password { get; set; }
-        public string Email { get; set; }
+        public string? Email { get; set; }
 
         //FK İçin lazım
         public int? RoleId { get; set; }

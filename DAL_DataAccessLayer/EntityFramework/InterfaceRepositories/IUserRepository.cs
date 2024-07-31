@@ -1,5 +1,7 @@
 ﻿using Entities.Concrete;
+using Entities.Dtos;
 using Shared.Data.Abstract;
+using Shared.Utilities_araçlar_.Results;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,5 +15,6 @@ namespace DAL_DataAccessLayer.EntityFramework.InterfaceRepositories
     {
         //kendimiz bir şey eklemek istiyorsak 
         IList<User> GetUsersByName(string name);
+       Task<IResult> UserLoginAsync(LoginDto loginDto);
     }
 }

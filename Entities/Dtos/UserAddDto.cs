@@ -14,8 +14,11 @@ namespace Entities.Dtos
         [MaxLength(50)]
         public string FirstName { get; set; }
         [Required(ErrorMessage = "Required")]
+         public string LastName { get; set; }
         [MaxLength(50)]
-        public string LastName { get; set; }
+        [Required]
+        public string Password { get; set; }
+        [Required]
         public string Email { get; set; }
     }
 }

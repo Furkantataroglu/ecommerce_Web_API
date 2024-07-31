@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RjkEhliL0qezDKpJ5+OyDuRJjRef3P9cCz28BE7vLraOjUK3zzfwnFKQxq5rpi8709AU2ZM8w2fMUAOLdIm0HA==",
+  "dgSpecHash": "9TnFh34RbarDPhtDHr2F23L12Fp2r4nGq6PvOZMJcjkYtqaoAaLyb4sTNtbwQcqylZLou/pp46TmQMZbBi9f/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\furka\\Desktop\\Subu\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\furka\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\furka\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

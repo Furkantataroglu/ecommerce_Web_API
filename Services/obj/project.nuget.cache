@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "FReQPdXkJw99FyY7Ywxpxu9deYvprDk6hamSM61Uy5FjvfFNpoZIYD2YPmobkl14W53OnreD9acV2MxrT3kAjg==",
+  "dgSpecHash": "5TsKOtVE9FCp/dZx9xeoyT2jNiKmrI54d+4pqDn3Cwy3OAdOO9VGevFyLWrX3fHna3/qiC/EAO5Ax0iOVmNBuA==",
   "success": true,
   "projectFilePath": "C:\\Users\\furka\\Desktop\\Subu\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\furka\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\furka\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.5\\microsoft.data.sqlclient.5.1.5.nupkg.sha512",
