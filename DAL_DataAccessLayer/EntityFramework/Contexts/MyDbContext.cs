@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace DAL_DataAccessLayer.EntityFramework.Contexts
 {
-    public class MyDbContext:IdentityDbContext<User>
+    public class MyDbContext:IdentityDbContext<User, Role, Guid>
     {
         //Databaseleri setleme
         public DbSet<User> Users { get; set; }
@@ -29,7 +29,7 @@ namespace DAL_DataAccessLayer.EntityFramework.Contexts
         {
             base.OnModelCreating(modelBuilder); // Ensure Identity configurations are applied
 
-            modelBuilder.Entity<IdentityUserClaim<int>>().HasKey(c => c.Id);
+          
 
 
             modelBuilder.Entity<User>(entity =>
@@ -37,7 +37,11 @@ namespace DAL_DataAccessLayer.EntityFramework.Contexts
                 entity.HasKey(e => e.Id);
                 entity.ToTable("Users");
             });
-
+            modelBuilder.Entity<Role>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.ToTable("Roles");
+            });
             modelBuilder.ApplyConfiguration(new UserMapping());
             modelBuilder.ApplyConfiguration(new RoleMapping());
            // modelBuilder.ApplyConfiguration(new CustomerMapping()); 

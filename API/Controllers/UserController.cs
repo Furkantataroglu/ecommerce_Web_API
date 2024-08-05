@@ -36,7 +36,7 @@
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(Guid id)
         {
             var result = await _userService.Delete(id);
             if (result.ResultStatus == ResultStatus.Success)
@@ -45,7 +45,7 @@
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id)
+        public async Task<IActionResult> Get(Guid id)
         {
             var result = await _userService.Get(id);
             if (result.ResultStatus == ResultStatus.Success)

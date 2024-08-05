@@ -11,9 +11,9 @@ using System.Threading.Tasks;
 
 namespace Entities.Concrete
 {
-    public class User:IdentityUser,IEntity
+    public class User: IdentityUser<Guid>, IEntity
     {
-        [Key] public int Id { get; set; }
+        [Key] public Guid Id { get; set; }
         
         //override örneği
         // public override DateTime CreatedDate { get => base.CreatedDate; set => base.CreatedDate = value; }
@@ -23,8 +23,8 @@ namespace Entities.Concrete
         public string? Email { get; set; }
 
         //FK İçin lazım
-        public int? RoleId { get; set; }
-        public Role? Role { get; set; }
+        public Guid? RoleId { get; set; }
+         public Role? Role { get; set; }
 
         public virtual DateTime? CreatedDate { get; set; } = DateTime.Now; //override etmek için override CreatedDate = new DateTime(2020/01/2020) gibi yapabiliriz virtual yapmamızın sebebi override edilebilir olması için
         public virtual DateTime? ModifiedDate { get; set; } = DateTime.Now;

@@ -49,7 +49,7 @@ namespace Services.Concrete
             return new Result(ResultStatus.Error, "User could not be updated");
         }
 
-        public async Task<IResult> Delete(int userId)
+        public async Task<IResult> Delete(Guid userId)
         {
             var user = await _unitOfWork.Users.GetAsync(p => p.Id == userId);
             if (user != null)
@@ -61,7 +61,7 @@ namespace Services.Concrete
             return new Result(ResultStatus.Error, "User could not be removed");
         }
 
-        public async Task<IDataResult<User>> Get(int userId)
+        public async Task<IDataResult<User>> Get(Guid userId)
         {
             var user = await _unitOfWork.Users.GetAsync(c => c.Id == userId);
             if (user != null)
