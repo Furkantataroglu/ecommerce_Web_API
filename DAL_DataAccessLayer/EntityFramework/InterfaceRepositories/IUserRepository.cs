@@ -15,6 +15,6 @@ namespace DAL_DataAccessLayer.EntityFramework.InterfaceRepositories
     {
         //kendimiz bir şey eklemek istiyorsak 
         IList<User> GetUsersByName(string name);
-       Task<IResult> UserLoginAsync(LoginDto loginDto);
+      
     }
 }

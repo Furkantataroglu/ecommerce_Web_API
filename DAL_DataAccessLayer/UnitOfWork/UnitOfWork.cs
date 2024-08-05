@@ -13,14 +13,16 @@ namespace DAL_DataAccessLayer.UnitOfWork
     public class UnitOfWork : IUnitOfWork
     {
         private readonly MyDbContext _context;
-        private UserRepository _userRepository;
-        private RoleRepository _roleRepository;
-        //private HospitalRepository _hospitalRepository gibi
 
         public UnitOfWork(MyDbContext context)
         {
             _context = context;
         }
+
+        private UserRepository _userRepository;
+        private RoleRepository _roleRepository;
+        //private HospitalRepository _hospitalRepository gibi
+
                                                         //?? değer null ise alternatif kodu çalıştırır
         public IUserRepository Users => _userRepository ?? new UserRepository(_context);
         public IRoleRepository Roles => _roleRepository ?? new RoleRepository(_context);
