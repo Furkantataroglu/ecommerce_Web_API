@@ -151,3 +151,4 @@ C:\Users\furka\Desktop\Subu\API\obj\Debug\net8.0\refint\API.dll
 C:\Users\furka\Desktop\Subu\API\obj\Debug\net8.0\API.pdb
 C:\Users\furka\Desktop\Subu\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\furka\Desktop\Subu\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\furka\Desktop\Subu\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
