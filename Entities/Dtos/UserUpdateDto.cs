@@ -9,14 +9,14 @@ namespace Entities.Dtos
 {
     public class UserUpdateDto
     {
-        [Required]
         public Guid Id { get; set; }
         [Required(ErrorMessage = "Required")]
         [MaxLength(50)]
         public string FirstName { get; set; }
         [Required(ErrorMessage = "Required")]
         [MaxLength(50)]
-        public string LastSurname { get; set; }
+        public string LastName { get; set; }
+        [EmailAddress]
         public string Email { get; set; }
     }
 }

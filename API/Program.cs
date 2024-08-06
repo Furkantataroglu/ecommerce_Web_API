@@ -23,6 +23,8 @@ builder.Services.LoadMyServices();
 builder.Services.AddIdentity<User, IdentityRole<Guid>>(options =>
 {
     options.Password.RequireDigit = true;
+    options.User.AllowedUserNameCharacters = "";
+    options.User.RequireUniqueEmail = true;
 }).AddEntityFrameworkStores<MyDbContext>();
 builder.Services.AddAuthentication(options =>
 {
@@ -59,6 +61,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+
+
 
 app.UseHttpsRedirection();
 

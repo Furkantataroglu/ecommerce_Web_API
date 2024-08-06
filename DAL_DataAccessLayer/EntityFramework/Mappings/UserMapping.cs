@@ -15,7 +15,6 @@ namespace DAL_DataAccessLayer.EntityFramework.Mappings
         {
             builder.HasKey(a => a.Id); //PK yapmak için
             builder.Property(a=>a.Id).ValueGeneratedOnAdd(); //eklendikçe 1 1 id artıyor.
-            
             //builder.Property(a =>a.FirstName).HasMaxLength(50); //gibi özellikler
             //builder.Property(a => a.FirstName).IsRequired(true);
             //builder.Property(a => a.LastName).IsRequired(true);

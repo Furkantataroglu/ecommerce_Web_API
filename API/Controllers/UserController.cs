@@ -1,7 +1,9 @@
 ﻿namespace API.Controllers
 
 {
+    using Entities.Concrete;
     using Entities.Dtos;
+    using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
     using Services.Abstract;
     using Shared.Utilities_araçlar_.Results;
@@ -11,18 +13,25 @@
     public class UserController: ControllerBase
     {
         private readonly IUserService _userService;
+       
 
         public UserController(IUserService userService)
         {
             _userService = userService;
+           
         }
 
-        [HttpPost]
+        [HttpPost("register")]
         public async Task<IActionResult> Add(UserAddDto userAddDto)
         {
+
             var result = await _userService.Add(userAddDto);
             if (result.ResultStatus == ResultStatus.Success)
-                return Ok(result);
+            {
+               
+                    return Ok(result); 
+            }
+                
             return BadRequest(result);
         }
 

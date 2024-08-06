@@ -13,14 +13,12 @@ namespace Entities.Concrete
 {
     public class User: IdentityUser<Guid>, IEntity
     {
-        [Key] public Guid Id { get; set; }
-        
+        public override string? UserName { get; set; } // Make UserName nullable for identity
         //override örneği
         // public override DateTime CreatedDate { get => base.CreatedDate; set => base.CreatedDate = value; }
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
-        public string? Password { get; set; }
-        public string? Email { get; set; }
+ 
 
         //FK İçin lazım
         //public Guid? RoleId { get; set; }
