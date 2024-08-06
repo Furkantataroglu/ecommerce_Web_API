@@ -20,7 +20,7 @@ builder.Services.AddControllers();
 builder.Services.LoadMyServices();
 
 //Auth iþlemleri
-builder.Services.AddIdentity<User, Role>(options =>
+builder.Services.AddIdentity<User, IdentityRole<Guid>>(options =>
 {
     options.Password.RequireDigit = true;
 }).AddEntityFrameworkStores<MyDbContext>();

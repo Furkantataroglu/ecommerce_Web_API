@@ -20,12 +20,12 @@ namespace DAL_DataAccessLayer.UnitOfWork
         }
 
         private UserRepository _userRepository;
-        private RoleRepository _roleRepository;
+        //private RoleRepository _roleRepository;
         //private HospitalRepository _hospitalRepository gibi
 
                                                         //?? değer null ise alternatif kodu çalıştırır
         public IUserRepository Users => _userRepository ?? new UserRepository(_context);
-        public IRoleRepository Roles => _roleRepository ?? new RoleRepository(_context);
+        //public IRoleRepository Roles => _roleRepository ?? new RoleRepository(_context);
         //public IHospitalRepository Hospitals => _hospitalRepository ?? new UserRepository(_context);
 
         public async Task<int> SaveAsync()

@@ -21,7 +21,7 @@ namespace DAL_DataAccessLayer.EntityFramework.Mappings
             //builder.Property(a => a.LastName).IsRequired(true);
             //builder.Property(a => a.Password).IsRequired(true);
             //foreign key one to many her kişinin bir rolü var her rolün birden fazla kişisi olabilir
-            builder.HasOne<Role>(u => u.Role).WithMany(r => r.Users).HasForeignKey(u => u.RoleId);
+            //builder.HasOne<Role>(u => u.Role).WithMany(r => r.Users).HasForeignKey(u => u.RoleId);
 
             builder.ToTable("Users"); //tablonun adı 
         }

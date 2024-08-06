@@ -11,11 +11,11 @@ using System.Threading.Tasks;
 
 namespace DAL_DataAccessLayer.EntityFramework.Contexts
 {
-    public class MyDbContext:IdentityDbContext<User, Role, Guid>
+    public class MyDbContext:IdentityDbContext<User, IdentityRole<Guid>, Guid>
     {
         //Databaseleri setleme
         public DbSet<User> Users { get; set; }
-        public DbSet<Role> Roles { get; set; }
+        //public DbSet<Role> Roles { get; set; }
 
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
         
@@ -37,13 +37,13 @@ namespace DAL_DataAccessLayer.EntityFramework.Contexts
                 entity.HasKey(e => e.Id);
                 entity.ToTable("Users");
             });
-            modelBuilder.Entity<Role>(entity =>
-            {
-                entity.HasKey(e => e.Id);
-                entity.ToTable("Roles");
-            });
+            //modelBuilder.Entity<Role>(entity =>
+            //{
+            //    entity.HasKey(e => e.Id);
+            //    entity.ToTable("Roles");
+            //});
             modelBuilder.ApplyConfiguration(new UserMapping());
-            modelBuilder.ApplyConfiguration(new RoleMapping());
+            //modelBuilder.ApplyConfiguration(new RoleMapping());
            // modelBuilder.ApplyConfiguration(new CustomerMapping()); 
         }
     }
