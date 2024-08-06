@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Identity;
 using Entities.Concrete;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Entities.Service;
+using Entities.Abstract;
 
 var builder = WebApplication.CreateBuilder(args);
 // Register AutoMapper
@@ -18,6 +20,7 @@ builder.Services.AddDbContext<MyDbContext>(options =>
 
 builder.Services.AddControllers();
 builder.Services.LoadMyServices();
+builder.Services.AddScoped<ITokenService, TokenService>();
 
 //Auth iþlemleri
 builder.Services.AddIdentity<User, IdentityRole<Guid>>(options =>

@@ -1,6 +1,7 @@
 ﻿namespace API.Controllers
 
 {
+    using Entities.Abstract;
     using Entities.Concrete;
     using Entities.Dtos;
     using Microsoft.AspNetCore.Identity;
@@ -18,7 +19,7 @@
         public UserController(IUserService userService)
         {
             _userService = userService;
-           
+
         }
 
         [HttpPost("register")]

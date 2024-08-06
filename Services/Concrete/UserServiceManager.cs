@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
 using DAL_DataAccessLayer.Abstarct;
+using Entities.Abstract;
 using Entities.Concrete;
 using Entities.Dtos;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Services.Abstract;
+using Shared.Entities.Token;
 using Shared.Utilities_araçlar_.Concrete;
 using Shared.Utilities_araçlar_.Results;
 using Shared.Utilities_araçlar_.Results.Abstract_interfaces_;
@@ -20,11 +22,14 @@ namespace Services.Concrete
         private readonly IMapper _mapper;
         private readonly UserManager<User> _userManager;
 
-        public UserServiceManager(UserManager<User> userManager, IUnitOfWork unitOfWork, IMapper mapper)
+        private readonly ITokenService _tokenService;
+
+        public UserServiceManager(UserManager<User> userManager, IUnitOfWork unitOfWork, IMapper mapper,ITokenService tokenService)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
             _userManager = userManager;
+            _tokenService = tokenService;
 
         }
 
@@ -50,6 +55,7 @@ namespace Services.Concrete
                     if (roleResult.Succeeded)
                     {
                         await _unitOfWork.SaveAsync();
+
                         return new Result(ResultStatus.Success, "User And Role Added");
                     }
                     else
