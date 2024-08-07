@@ -33,8 +33,9 @@ namespace Services.Concrete
 
         }
 
-        public async Task<IResult> Add(UserAddDto userAddDto)
+        public async Task<IDataResult<NewUserDto>> Add(UserAddDto userAddDto)
         {
+          
             // DTO'dan kullanıcı nesnesine dönüştür
             var user = new User()
             {
@@ -56,22 +57,25 @@ namespace Services.Concrete
                     {
                         await _unitOfWork.SaveAsync();
 
-                        return new Result(ResultStatus.Success, "User And Role Added");
+                        return new DataResult<NewUserDto>(ResultStatus.Success,"User Added" ,new NewUserDto
+                        {
+                            Email = userAddDto.Email,
+                            Token = _tokenService.CreateToken(user)
+                        });
                     }
                     else
                     {
-                        return new Result(ResultStatus.Error, "Role assignment failed: " + string.Join(", ", roleResult.Errors.Select(e => e.Description)));
+                        return new DataResult<NewUserDto>(ResultStatus.Error, "Role assignment failed: " + string.Join(", ", roleResult.Errors.Select(e => e.Description)), new NewUserDto());
                     }
                 }
                 else
                 {
-                    return new Result(ResultStatus.Error, "User creation failed: " + string.Join(", ", result.Errors.Select(e => e.Description)));
+                    return new DataResult<NewUserDto>(ResultStatus.Error, "User creation failed: " + string.Join(", ", result.Errors.Select(e => e.Description)), new NewUserDto());
                 }
             }
             catch (Exception ex)
             {
-                // Log the exception and return a generic error message
-                return new Result(ResultStatus.Error, "An error occurred: " + ex.Message);
+                return new DataResult<NewUserDto>(ResultStatus.Error, "An error occurred: " + ex.Message, new NewUserDto());
             }
         }
 

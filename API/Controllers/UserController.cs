@@ -27,7 +27,7 @@
         {
 
             var result = await _userService.Add(userAddDto);
-            if (result.ResultStatus == ResultStatus.Success)
+            if (result.Data != null && !string.IsNullOrEmpty(result.Data.Email))
             {
                
                     return Ok(result); 
