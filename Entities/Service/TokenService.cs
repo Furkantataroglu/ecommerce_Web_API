@@ -1,5 +1,6 @@
 ﻿using Entities.Abstract;
 using Entities.Concrete;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -16,10 +17,12 @@ namespace Entities.Service
     {
         private readonly IConfiguration _config;
         private readonly SymmetricSecurityKey _key;
-        public TokenService(IConfiguration config)
+        private readonly UserManager<User> _userManager;
+        public TokenService(IConfiguration config, UserManager<User> userManager)
         {
             _config = config;
             _key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["JWT:SigningKey"]));
+            _userManager = userManager;
         }
         public string CreateToken(User user)
         {
@@ -28,6 +31,13 @@ namespace Entities.Service
                 new Claim(JwtRegisteredClaimNames.Email, user.Email),
                 new Claim(JwtRegisteredClaimNames.GivenName, user.UserName)
             };
+
+
+            var roles = _userManager.GetRolesAsync(user).Result; // Synchronously wait for roles
+            foreach (var role in roles)
+            {
+                claims.Add(new Claim(ClaimTypes.Role, role));
+            }
             var creds = new SigningCredentials(_key, SecurityAlgorithms.HmacSha512Signature);
 
             //token özellikleri

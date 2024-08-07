@@ -12,7 +12,7 @@
     using Shared.Entities.Token;
     using Shared.Utilities_araçlar_.Results;
     using System.Threading.Tasks;
-    
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
@@ -29,7 +29,7 @@
             _tokenService = tokenService;
            
         }
-
+        [AllowAnonymous]
         [HttpPost("register")]
         public async Task<IActionResult> Add(UserAddDto userAddDto)
         {
@@ -43,9 +43,13 @@
 
             return BadRequest(result);
         }
+        
+        [AllowAnonymous]
         [HttpPost("login")]
         public async Task<IActionResult> Login(LoginDto loginDto)
         {
+
+           
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
@@ -54,18 +58,22 @@
             try
             {
                 var user = await _userManager.Users.FirstOrDefaultAsync(x => x.Email == loginDto.Email);
+
+                
                 if (user == null)
                     return Unauthorized("Invalid Email or Password");
-
+                
                 var result = await _signInManager.CheckPasswordSignInAsync(user, loginDto.Password, false);
                 if (!result.Succeeded)
                     return Unauthorized("Invalid Email or Password");
 
+                var roles = await _userManager.GetRolesAsync(user); // Await the task
+                var rolesMessage = roles.Any() ? $"Roles: {string.Join(", ", roles)}" : "No roles assigned";
                 return Ok(new NewUserDto
                 {
                     Email = user.Email,
-                    Token = _tokenService.CreateToken(user)
-                });
+                    Token = _tokenService.CreateToken(user),
+                }) ;
             }
             catch (Exception ex)
             {
@@ -82,7 +90,6 @@
                 return Ok(result);
             return BadRequest(result);
         }
-        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {
@@ -91,7 +98,6 @@
                 return Ok(result);
             return BadRequest(result);
         }
-        [Authorize(Roles = "Admin")]
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(Guid id)
         {
@@ -100,7 +106,6 @@
                 return Ok(result);
             return BadRequest(result);
         }
-        [Authorize(Roles = "USER")]
         [HttpGet("Get All")]
         public async Task<IActionResult> GetAll()
         {
