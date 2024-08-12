@@ -1,8 +1,12 @@
 ﻿using AutoMapper;
 using DAL_DataAccessLayer.Abstarct;
+using Entities.Abstract;
 using Entities.Concrete;
 using Entities.Dtos;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Services.Abstract;
+using Shared.Entities.Token;
 using Shared.Utilities_araçlar_.Concrete;
 using Shared.Utilities_araçlar_.Results;
 using Shared.Utilities_araçlar_.Results.Abstract_interfaces_;
@@ -16,37 +20,100 @@ namespace Services.Concrete
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
+        private readonly UserManager<User> _userManager;
 
-        public UserServiceManager(IUnitOfWork unitOfWork, IMapper mapper)
+        private readonly ITokenService _tokenService;
+
+        public UserServiceManager(UserManager<User> userManager, IUnitOfWork unitOfWork, IMapper mapper,ITokenService tokenService)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
+            _userManager = userManager;
+            _tokenService = tokenService;
+
         }
 
-        public async Task<IResult> Add(UserAddDto userAddDto)
+        public async Task<IDataResult<NewUserDto>> Add(UserAddDto userAddDto)
         {
-            var user = _mapper.Map<User>(userAddDto);
-            user.CreatedDate = DateTime.Now;
-            user.UpdatedBy = "Test admin";
+          
+            // DTO'dan kullanıcı nesnesine dönüştür
+            var user = new User()
+            {
+                FirstName = userAddDto.FirstName,
+                LastName = userAddDto.LastName,
+                Email = userAddDto.Email,
+                PasswordHash = userAddDto.Password,
+                UserName = userAddDto.Email,
+            };
+          
+            // Kullanıcı oluşturma işlemini yap
+            try
+            {
+                var result = await _userManager.CreateAsync(user,userAddDto.Password);
+                if (result.Succeeded)
+                {
+                    var roleResult = await _userManager.AddToRoleAsync(user, "User");
+                    if (roleResult.Succeeded)
+                    {
+                        await _unitOfWork.SaveAsync();
 
-            await _unitOfWork.Users.AddAsync(user);
-            await _unitOfWork.SaveAsync();
-            return new Result(ResultStatus.Success, "User Added");
+                        return new DataResult<NewUserDto>(ResultStatus.Success,"User Added" ,new NewUserDto
+                        {
+                            Email = userAddDto.Email,
+                            Token = _tokenService.CreateToken(user)
+                        });
+                    }
+                    else
+                    {
+                        return new DataResult<NewUserDto>(ResultStatus.Error, "Role assignment failed: " + string.Join(", ", roleResult.Errors.Select(e => e.Description)), new NewUserDto());
+                    }
+                }
+                else
+                {
+                    return new DataResult<NewUserDto>(ResultStatus.Error, "User creation failed: " + string.Join(", ", result.Errors.Select(e => e.Description)), new NewUserDto());
+                }
+            }
+            catch (Exception ex)
+            {
+                return new DataResult<NewUserDto>(ResultStatus.Error, "An error occurred: " + ex.Message, new NewUserDto());
+            }
         }
 
         public async Task<IResult> Update(UserUpdateDto userUpdateDto)
         {
-            var user = await _unitOfWork.Users.GetAsync(c => c.Id == userUpdateDto.Id);
-            if (user != null)
+            // Kullanıcıyı veritabanından alın
+            var user = await _userManager.FindByIdAsync(userUpdateDto.Id.ToString());
+            if (user == null)
             {
-                _mapper.Map(userUpdateDto, user);
-                user.ModifiedDate = DateTime.Now;
-
-                await _unitOfWork.Users.UpdateAsync(user);
-                await _unitOfWork.SaveAsync();
-                return new Result(ResultStatus.Success, "User Updated Successfully");
+                return new Result(ResultStatus.Error, "User not found");
             }
-            return new Result(ResultStatus.Error, "User could not be updated");
+
+            // Kullanıcıyı DTO ile güncelle
+            user.FirstName = userUpdateDto.FirstName;
+            user.LastName = userUpdateDto.LastName;
+            user.Email = userUpdateDto.Email;
+            user.UserName = userUpdateDto.Email;
+            user.ModifiedDate = DateTime.Now;
+
+            // Güncelleme işlemini yap
+            try
+            {
+                var result = await _userManager.UpdateAsync(user);
+                if (result.Succeeded)
+                {
+                    await _unitOfWork.SaveAsync();
+                    return new Result(ResultStatus.Success, "User Updated Successfully");
+                }
+                else
+                {
+                    return new Result(ResultStatus.Error, "User update failed: " + string.Join(", ", result.Errors.Select(e => e.Description)));
+                }
+            }
+            catch (Exception ex)
+            {
+                // Hata durumunda genel bir hata mesajı döndür
+                return new Result(ResultStatus.Error, "An error occurred: " + ex.Message);
+            }
         }
 
         public async Task<IResult> Delete(Guid userId)

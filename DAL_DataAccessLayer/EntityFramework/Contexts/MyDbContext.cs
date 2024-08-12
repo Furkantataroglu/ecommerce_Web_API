@@ -29,7 +29,21 @@ namespace DAL_DataAccessLayer.EntityFramework.Contexts
         {
             base.OnModelCreating(modelBuilder); // Ensure Identity configurations are applied
 
-          
+            //Rolleri Tanımlama
+            modelBuilder.Entity<IdentityRole<Guid>>().HasData(
+                  new IdentityRole<Guid>
+                  {
+                      Id = new Guid("223f336d-92ca-47cc-8e93-44e0efd39112"),
+                      Name = "Admin",
+                      NormalizedName = "ADMIN"
+                  },
+                  new IdentityRole<Guid>
+                  {
+                      Id = new Guid("4b597848-ab45-4994-b4a4-7de1bceb2d6a"),
+                      Name = "User",
+                      NormalizedName = "USER"
+                  }
+              );
 
 
             modelBuilder.Entity<User>(entity =>
