@@ -15,6 +15,7 @@ namespace DAL_DataAccessLayer.EntityFramework.Contexts
     {
         //Databaseleri setleme
         public DbSet<User> Users { get; set; }
+        public DbSet<Product> Products { get; set; }
         //public DbSet<Role> Roles { get; set; }
 
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
@@ -44,13 +45,6 @@ namespace DAL_DataAccessLayer.EntityFramework.Contexts
                       NormalizedName = "USER"
                   }
               );
-
-
-            modelBuilder.Entity<User>(entity =>
-            {
-                entity.HasKey(e => e.Id);
-                entity.ToTable("Users");
-            });
             //modelBuilder.Entity<Role>(entity =>
             //{
             //    entity.HasKey(e => e.Id);

@@ -15,6 +15,7 @@ namespace Services.AutoMapper.Profiles
         {
             CreateMap<User, UserAddDto>().ReverseMap();
             CreateMap<User, UserUpdateDto>().ReverseMap();
+           
         }
     }
 }

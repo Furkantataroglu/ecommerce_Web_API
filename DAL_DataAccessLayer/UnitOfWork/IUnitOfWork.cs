@@ -12,6 +12,7 @@ namespace DAL_DataAccessLayer.Abstarct
     public interface IUnitOfWork:IAsyncDisposable
     {
         IUserRepository Users { get; } //unitofwork.Users gibi bir çağırım. 
+        IProductRepository Products { get; }
         //IRoleRepository Roles { get; }
         //IHospitalRepository Hospitals {get;}  gibi
         Task<int> SaveAsync();

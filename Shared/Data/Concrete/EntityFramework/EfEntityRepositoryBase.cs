@@ -71,7 +71,7 @@ namespace Shared.Data.Concrete.EntityFramework
             return await query.SingleOrDefaultAsync();
         }
 
-        public async Task<TEntity> GetByIdAsync(int id)
+        public async Task<TEntity> GetByIdAsync(Guid id)
         {
             
             return await _context.Set<TEntity>().FindAsync(id);

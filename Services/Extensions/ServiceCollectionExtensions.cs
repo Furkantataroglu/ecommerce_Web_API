@@ -19,6 +19,7 @@ namespace Services.Extensions
             serviceCollection.AddDbContext<MyDbContext>();
             serviceCollection.AddScoped<IUnitOfWork,UnitOfWork>();
             serviceCollection.AddScoped<IUserService,UserServiceManager>();
+            serviceCollection.AddScoped<IProductService,ProductServiceManager>();
             return serviceCollection;
         }
     }

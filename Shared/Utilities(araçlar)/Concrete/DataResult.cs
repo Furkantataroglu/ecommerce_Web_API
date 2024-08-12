@@ -17,6 +17,11 @@ namespace Shared.Utilities_araçlar_.Concrete
             ResultStatus = resultStatus;
             Data = data;
         }
+        public DataResult(ResultStatus resultStatus, string message)
+        {
+            ResultStatus = resultStatus;
+            Message = message;
+        }
         public DataResult(ResultStatus resultStatus, string message, T data)
         {
             ResultStatus = resultStatus;
