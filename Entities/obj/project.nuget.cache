@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7svezsZQEaeWY2m4LMBPso2z75mHGNdeOixtaf7BmoCWtkCm6sD7c1vDO/GD0VcoAk0f8W4DwDlBeSCnpGokJg==",
+  "dgSpecHash": "NXX175+F/74=",
   "success": true,
-  "projectFilePath": "C:\\Users\\furka\\Desktop\\Subu\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.7\\microsoft.aspnetcore.authentication.jwtbearer.8.0.7.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.7\\microsoft.entityframeworkcore.8.0.7.nupkg.sha512",

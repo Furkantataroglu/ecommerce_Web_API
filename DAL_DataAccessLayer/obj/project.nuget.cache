@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zFJ6ZKmkqz8pvQkhp4/63SxPn/bNOkpxf7jEr01UE9fznJnnHSmUSb5nX6P3BT/lSAjhBqmwLmvWfUmCrDMTMA==",
+  "dgSpecHash": "x5TxxIJj31M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\furka\\Desktop\\Subu\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\furka\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

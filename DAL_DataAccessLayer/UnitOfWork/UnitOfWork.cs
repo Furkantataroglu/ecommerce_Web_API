@@ -21,12 +21,16 @@ namespace DAL_DataAccessLayer.UnitOfWork
 
         private UserRepository _userRepository;
         private ProductRepository _productRepository;
+        private CartRepository _cartRepository;
+        private CartItemRepository _cartItemRepository;
         //private RoleRepository _roleRepository;
         //private HospitalRepository _hospitalRepository gibi
 
                                                         //?? değer null ise alternatif kodu çalıştırır
         public IUserRepository Users => _userRepository ?? new UserRepository(_context);
         public IProductRepository Products => _productRepository ?? new ProductRepository(_context);
+        public ICartRepository Carts => _cartRepository ?? new CartRepository(_context);
+        public ICartItemRepository CartItem => _cartItemRepository ?? new CartItemRepository(_context);
         //public IRoleRepository Roles => _roleRepository ?? new RoleRepository(_context);
         //public IHospitalRepository Hospitals => _hospitalRepository ?? new UserRepository(_context);
 

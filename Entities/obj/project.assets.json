@@ -887,24 +887,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\furka\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\furka\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\furka\\Desktop\\Subu\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\furka\\Desktop\\Subu\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\furka\\Desktop\\Subu\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -919,8 +914,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\furka\\Desktop\\Subu\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\furka\\Desktop\\Subu\\Shared\\Shared.csproj"
+            "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Shared.csproj"
             }
           }
         }
@@ -929,6 +924,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -956,7 +956,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -579,7 +579,10 @@
           "Shared": "1.0.0"
         },
         "runtime": {
-          "DAL_DataAccessLayer.dll": {}
+          "DAL_DataAccessLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Entities/1.0.0": {
@@ -588,7 +591,10 @@
           "Shared": "1.0.0"
         },
         "runtime": {
-          "Entities.dll": {}
+          "Entities.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Shared/1.0.0": {
@@ -596,7 +602,10 @@
           "Microsoft.EntityFrameworkCore": "8.0.7"
         },
         "runtime": {
-          "Shared.dll": {}
+          "Shared.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

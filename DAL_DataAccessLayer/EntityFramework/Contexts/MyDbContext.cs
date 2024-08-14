@@ -16,6 +16,8 @@ namespace DAL_DataAccessLayer.EntityFramework.Contexts
         //Databaseleri setleme
         public DbSet<User> Users { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Cart> Carts { get; set; }
+        public DbSet<CartItem> CartItem { get; set; }
         //public DbSet<Role> Roles { get; set; }
 
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
