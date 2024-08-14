@@ -17,7 +17,7 @@ namespace Entities.Concrete
         public string Description { get; set; }
 
         // Price of the product
-        public decimal? Price { get; set; }
+        public int? Price { get; set; }
 
         // Available stock quantity of the product
         public int? StockQuantity { get; set; }

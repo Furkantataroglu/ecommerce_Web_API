@@ -17,6 +17,7 @@ namespace Services.Abstract
         Task<IDataResult<IList<Product>>> GetAll();
         Task<IDataResult<Product>> Add(ProductAddDto productAddDto); 
         Task<IResult> Update(ProductUpdateDto productUpdateDto); 
-        Task<IResult> Delete(Guid productId); 
+        Task<IResult> Delete(Guid productId);
+        public int CalculateStockValue(Product product);
     }
 }

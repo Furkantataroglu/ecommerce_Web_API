@@ -25,6 +25,10 @@ namespace Services.Concrete
                
         }
 
+        public int CalculateStockValue(Product product)
+        {
+            return (int)(product.Price * product.StockQuantity);
+        }
 
         public async Task<IDataResult<Product>> Add(ProductAddDto productAddDto)
         {
