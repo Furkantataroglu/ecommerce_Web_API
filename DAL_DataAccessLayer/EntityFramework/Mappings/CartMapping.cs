@@ -15,6 +15,18 @@ namespace DAL_DataAccessLayer.EntityFramework.Mappings
         {
             builder.HasKey(a => a.Id); //PK yapmak için
             builder.Property(a => a.Id).ValueGeneratedOnAdd();
+
+            // Relationship with User
+            builder.HasOne(c => c.User)
+                .WithMany(u => u.Carts)
+                .HasForeignKey(c => c.UserId)
+                .IsRequired();
+
+            // Relationship with CartItem
+            builder.HasMany(c => c.CartItems)
+                .WithOne(ci => ci.Cart)
+                .HasForeignKey(ci => ci.CartId)
+                .OnDelete(DeleteBehavior.Cascade);
             builder.ToTable("Carts");
         }
     }

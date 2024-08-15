@@ -11,12 +11,10 @@ namespace Entities.Concrete
     public class Cart : EntityBase , IEntity
     {
         public Guid UserId { get; set; }
-        public virtual User User { get; set; }
-        public virtual ICollection<CartItem> Items { get; set; }
+        public string Status { get; set; } = "Active";
+        public decimal TotalPrice { get; set; }
 
-        public Cart()
-        {
-            Items = new List<CartItem>();
-        }
+        public virtual User User { get; set; }
+        public virtual ICollection<CartItem> CartItems { get; set; } = new HashSet<CartItem>();
     }
 }

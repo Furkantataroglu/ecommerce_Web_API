@@ -20,6 +20,7 @@ namespace Services.Extensions
             serviceCollection.AddScoped<IUnitOfWork,UnitOfWork>();
             serviceCollection.AddScoped<IUserService,UserServiceManager>();
             serviceCollection.AddScoped<IProductService,ProductServiceManager>();
+            serviceCollection.AddScoped<ICartService,CartServiceManager>();
             return serviceCollection;
         }
     }

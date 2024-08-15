@@ -18,7 +18,9 @@ namespace Entities.Concrete
         // public override DateTime CreatedDate { get => base.CreatedDate; set => base.CreatedDate = value; }
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
- 
+
+        // Navigation property for Cart
+        public virtual ICollection<Cart> Carts { get; set; } = new List<Cart>();
 
         //FK İçin lazım
         //public Guid? RoleId { get; set; }
