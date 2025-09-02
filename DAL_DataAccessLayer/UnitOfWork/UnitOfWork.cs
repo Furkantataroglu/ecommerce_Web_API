@@ -30,7 +30,7 @@ namespace DAL_DataAccessLayer.UnitOfWork
         public IUserRepository Users => _userRepository ?? new UserRepository(_context);
         public IProductRepository Products => _productRepository ?? new ProductRepository(_context);
         public ICartRepository Carts => _cartRepository ?? new CartRepository(_context);
-        public ICartItemRepository CartItem => _cartItemRepository ?? new CartItemRepository(_context);
+        public ICartItemRepository CartItems => _cartItemRepository ?? new CartItemRepository(_context);
         //public IRoleRepository Roles => _roleRepository ?? new RoleRepository(_context);
         //public IHospitalRepository Hospitals => _hospitalRepository ?? new UserRepository(_context);
 

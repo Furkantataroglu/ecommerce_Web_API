@@ -53,6 +53,9 @@ namespace DAL_DataAccessLayer.EntityFramework.Contexts
             //    entity.ToTable("Roles");
             //});
             modelBuilder.ApplyConfiguration(new UserMapping());
+            modelBuilder.ApplyConfiguration(new CartMapping());
+            modelBuilder.ApplyConfiguration(new CartItemMapping());
+            modelBuilder.ApplyConfiguration(new ProductMapping());
             //modelBuilder.ApplyConfiguration(new RoleMapping());
            // modelBuilder.ApplyConfiguration(new CustomerMapping()); 
         }

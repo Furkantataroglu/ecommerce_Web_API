@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Services.Concrete
 {
@@ -29,7 +30,15 @@ namespace Services.Concrete
             var cart = await _unitOfWork.Carts.GetAsync(c => c.UserId == userId && c.Status == "Active");
             if (cart == null)
             {
-                return new Result(ResultStatus.Error, "Active cart not found for user.");
+                // Cart yoksa otomatik oluştur
+                cart = new Cart
+                {
+                    UserId = userId,
+                    Status = "Active",
+                    TotalPrice = 0
+                };
+                await _unitOfWork.Carts.AddAsync(cart);
+                await _unitOfWork.SaveAsync();
             }
 
             var product = await _unitOfWork.Products.GetAsync(p => p.Id == productId);
@@ -38,15 +47,34 @@ namespace Services.Concrete
                 return new Result(ResultStatus.Error, "Product not found.");
             }
 
-            var existingCartItem = await _unitOfWork.CartItem.GetAsync(ci => ci.CartId == cart.Id && ci.ProductId == productId);
+            // Stok kontrolü - ürün aktif mi?
+            if (!product.IsActive)
+            {
+                return new Result(ResultStatus.Error, "Product is not active.");
+            }
+
+            var existingCartItem = await _unitOfWork.CartItems.GetAsync(ci => ci.CartId == cart.Id && ci.ProductId == productId);
             if (existingCartItem != null)
             {
+                // Mevcut ürün + yeni miktar stoktan fazla mı kontrol et
+                var totalRequestedQuantity = existingCartItem.Quantity + quantity;
+                if (product.StockQuantity < totalRequestedQuantity)
+                {
+                    return new Result(ResultStatus.Error, $"Insufficient stock for total quantity. Available: {product.StockQuantity}, Current in cart: {existingCartItem.Quantity}, Additional requested: {quantity}, Total would be: {totalRequestedQuantity}");
+                }
+
                 existingCartItem.Quantity += quantity;
                 existingCartItem.Price = (decimal)product.Price;
-                await _unitOfWork.CartItem.UpdateAsync(existingCartItem);
+                await _unitOfWork.CartItems.UpdateAsync(existingCartItem);
             }
             else
             {
+                // Yeni ürün eklerken stok kontrolü
+                if (product.StockQuantity < quantity)
+                {
+                    return new Result(ResultStatus.Error, $"Insufficient stock. Available: {product.StockQuantity}, Requested: {quantity}");
+                }
+
                 var cartItem = new CartItem
                 {
                     CartId = cart.Id,
@@ -54,11 +82,11 @@ namespace Services.Concrete
                     Quantity = quantity,
                     Price = (decimal)product.Price
                 };
-                await _unitOfWork.CartItem.AddAsync(cartItem);
+                await _unitOfWork.CartItems.AddAsync(cartItem);
             }
 
-            cart.TotalPrice = await _unitOfWork.CartItem.GetAllAsync(ci => ci.CartId == cart.Id)
-                .SumAsync(ci => ci.Quantity * ci.Price);
+            var cartItems = await _unitOfWork.CartItems.GetAllAsync(ci => ci.CartId == cart.Id);
+            cart.TotalPrice = cartItems.Sum(ci => ci.Quantity * ci.Price);
 
             await _unitOfWork.Carts.UpdateAsync(cart);
             await _unitOfWork.SaveAsync();
@@ -74,8 +102,8 @@ namespace Services.Concrete
                 return new Result(ResultStatus.Error, "Active cart not found for user.");
             }
 
-            var cartItems = await _unitOfWork.CartItem.GetAllAsync(ci => ci.CartId == cart.Id);
-            _unitOfWork.CartItem.RemoveRange(cartItems);
+            var cartItems = await _unitOfWork.CartItems.GetAllAsync(ci => ci.CartId == cart.Id);
+            await _unitOfWork.CartItems.RemoveRangeAsync(cartItems);
 
             cart.TotalPrice = 0;
             await _unitOfWork.Carts.UpdateAsync(cart);
@@ -86,10 +114,21 @@ namespace Services.Concrete
 
         public async Task<IDataResult<CartDto>> GetCartByUserIdAsync(Guid userId)
         {
-            var cart = await _unitOfWork.Carts.GetAsync(c => c.UserId == userId && c.Status == "Active", include: c => c.Include(c => c.CartItems).ThenInclude(ci => ci.Product));
+            var cart = await _unitOfWork.Carts.GetWithIncludesAsync(
+                c => c.UserId == userId && c.Status == "Active",
+                query => query.Include(c => c.CartItems).ThenInclude(ci => ci.Product));
+                
             if (cart == null)
             {
-                return new DataResult<CartDto>(ResultStatus.Error, "Active cart not found for user.", null);
+                // Cart yoksa otomatik oluştur
+                cart = new Cart
+                {
+                    UserId = userId,
+                    Status = "Active",
+                    TotalPrice = 0
+                };
+                await _unitOfWork.Carts.AddAsync(cart);
+                await _unitOfWork.SaveAsync();
             }
 
             var cartDto = _mapper.Map<CartDto>(cart);
@@ -101,19 +140,28 @@ namespace Services.Concrete
             var cart = await _unitOfWork.Carts.GetAsync(c => c.UserId == userId && c.Status == "Active");
             if (cart == null)
             {
-                return new Result(ResultStatus.Error, "Active cart not found for user.");
+                // Cart yoksa otomatik oluştur
+                cart = new Cart
+                {
+                    UserId = userId,
+                    Status = "Active",
+                    TotalPrice = 0
+                };
+                await _unitOfWork.Carts.AddAsync(cart);
+                await _unitOfWork.SaveAsync();
+                return new Result(ResultStatus.Success, "Cart created successfully. No items to remove.");
             }
 
-            var cartItem = await _unitOfWork.CartItem.GetAsync(ci => ci.CartId == cart.Id && ci.ProductId == productId);
+            var cartItem = await _unitOfWork.CartItems.GetAsync(ci => ci.CartId == cart.Id && ci.ProductId == productId);
             if (cartItem == null)
             {
                 return new Result(ResultStatus.Error, "Cart item not found.");
             }
 
-            await _unitOfWork.CartItem.DeleteAsync(cartItem);
+            await _unitOfWork.CartItems.DeleteAsync(cartItem);
 
-            cart.TotalPrice = await _unitOfWork.CartItems.GetAllAsync(ci => ci.CartId == cart.Id)
-                .SumAsync(ci => ci.Quantity * ci.Price);
+            var cartItems = await _unitOfWork.CartItems.GetAllAsync(ci => ci.CartId == cart.Id);
+            cart.TotalPrice = cartItems.Sum(ci => ci.Quantity * ci.Price);
 
             await _unitOfWork.Carts.UpdateAsync(cart);
             await _unitOfWork.SaveAsync();
@@ -129,23 +177,79 @@ namespace Services.Concrete
                 return new Result(ResultStatus.Error, "Active cart not found for user.");
             }
 
-            var cartItem = await _unitOfWork.CartItem.GetAsync(ci => ci.CartId == cart.Id && ci.ProductId == productId);
+            var cartItem = await _unitOfWork.CartItems.GetAsync(ci => ci.CartId == cart.Id && ci.ProductId == productId);
             if (cartItem == null)
             {
                 return new Result(ResultStatus.Error, "Cart item not found.");
             }
 
-            cartItem.Quantity = quantity;
-            cartItem.Price = await _unitOfWork.Products.GetAsync(p => p.Id == productId).ContinueWith(t => t.Result.Price ?? 0);
-            await _unitOfWork.CartItem.UpdateAsync(cartItem);
+            // Stok kontrolü
+            var product = await _unitOfWork.Products.GetAsync(p => p.Id == productId);
+            if (product == null)
+            {
+                return new Result(ResultStatus.Error, "Product not found.");
+            }
 
-            cart.TotalPrice = await _unitOfWork.CartItems.GetAllAsync(ci => ci.CartId == cart.Id)
-                .SumAsync(ci => ci.Quantity * ci.Price);
+            if (product.StockQuantity < quantity)
+            {
+                return new Result(ResultStatus.Error, $"Insufficient stock. Available: {product.StockQuantity}, Requested: {quantity}");
+            }
+
+            cartItem.Quantity = quantity;
+            cartItem.Price = product?.Price ?? 0;
+            await _unitOfWork.CartItems.UpdateAsync(cartItem);
+
+            var cartItems = await _unitOfWork.CartItems.GetAllAsync(ci => ci.CartId == cart.Id);
+            cart.TotalPrice = cartItems.Sum(ci => ci.Quantity * ci.Price);
 
             await _unitOfWork.Carts.UpdateAsync(cart);
             await _unitOfWork.SaveAsync();
 
             return new Result(ResultStatus.Success, "Cart item quantity updated successfully.");
+        }
+
+        /// <summary>
+        /// Yetersiz stok olan ürünleri sepetten çıkarır
+        /// </summary>
+        public async Task<IResult> RemoveInsufficientStockItemsAsync(Guid userId)
+        {
+            var cart = await _unitOfWork.Carts.GetWithIncludesAsync(
+                c => c.UserId == userId && c.Status == "Active",
+                query => query.Include(c => c.CartItems).ThenInclude(ci => ci.Product));
+
+            if (cart == null)
+            {
+                return new Result(ResultStatus.Error, "Active cart not found for user.");
+            }
+
+            var removedItems = new List<string>();
+            var cartItemsToRemove = new List<CartItem>();
+
+            foreach (var cartItem in cart.CartItems)
+            {
+                if (cartItem.Product != null && cartItem.Quantity > cartItem.Product.StockQuantity)
+                {
+                    cartItemsToRemove.Add(cartItem);
+                    removedItems.Add($"{cartItem.Product.Name} (Requested: {cartItem.Quantity}, Available: {cartItem.Product.StockQuantity})");
+                }
+            }
+
+            if (cartItemsToRemove.Any())
+            {
+                await _unitOfWork.CartItems.RemoveRangeAsync(cartItemsToRemove);
+                
+                // Toplam fiyatı güncelle
+                var remainingCartItems = await _unitOfWork.CartItems.GetAllAsync(ci => ci.CartId == cart.Id);
+                cart.TotalPrice = remainingCartItems.Sum(ci => ci.Quantity * ci.Price);
+                
+                await _unitOfWork.Carts.UpdateAsync(cart);
+                await _unitOfWork.SaveAsync();
+
+                var message = $"Removed {cartItemsToRemove.Count} items with insufficient stock: " + string.Join("; ", removedItems);
+                return new Result(ResultStatus.Success, message);
+            }
+
+            return new Result(ResultStatus.Success, "No items with insufficient stock found.");
         }
     }
 }

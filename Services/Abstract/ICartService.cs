@@ -17,5 +17,6 @@ namespace Services.Abstract
         Task<IDataResult<CartDto>> GetCartByUserIdAsync(Guid userId);
         Task<IResult> RemoveItemFromCartAsync(Guid userId, Guid productId);
         Task<IResult> UpdateItemQuantityAsync(Guid userId, Guid productId, int quantity);
+        Task<IResult> RemoveInsufficientStockItemsAsync(Guid userId);
     }
 }

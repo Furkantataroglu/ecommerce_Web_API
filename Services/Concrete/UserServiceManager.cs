@@ -55,6 +55,15 @@ namespace Services.Concrete
                     var roleResult = await _userManager.AddToRoleAsync(user, "User");
                     if (roleResult.Succeeded)
                     {
+                        // Kullanıcı için otomatik cart oluştur
+                        var cart = new Cart
+                        {
+                            UserId = user.Id,
+                            Status = "Active",
+                            TotalPrice = 0
+                        };
+                        
+                        await _unitOfWork.Carts.AddAsync(cart);
                         await _unitOfWork.SaveAsync();
 
                         return new DataResult<NewUserDto>(ResultStatus.Success,"User Added" ,new NewUserDto

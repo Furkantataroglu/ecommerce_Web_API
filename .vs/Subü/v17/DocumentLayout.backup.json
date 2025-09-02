@@ -1,113 +1,148 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\",
+  "WorkspaceRootPath": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|c:\\users\\furka\\desktop\\subu_web_api\\services\\abstract\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|solutionrelative:services\\abstract\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.CartItem.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|c:\\users\\furka\\desktop\\subu_web_api\\services\\concrete\\cartservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|solutionrelative:services\\concrete\\cartservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|c:\\users\\furka\\desktop\\subu_web_api\\services\\automapper\\profiles\\cartmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|solutionrelative:services\\automapper\\profiles\\cartmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.Carts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|c:\\users\\furka\\desktop\\subu_web_api\\services\\automapper\\profiles\\productmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|solutionrelative:services\\automapper\\profiles\\productmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\subu_web_api\\entities\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\subu_web_api\\entities\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\subu_web_api\\entities\\concrete\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\subu_web_api\\entities\\concrete\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\subu_web_api\\entities\\concrete\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{714DCF72-7FF0-43CE-B7E5-4E5E0FE8D133}|Shared\\Shared.csproj|c:\\users\\furka\\desktop\\subu_web_api\\shared\\data\\concrete\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{714DCF72-7FF0-43CE-B7E5-4E5E0FE8D133}|Shared\\Shared.csproj|solutionrelative:shared\\data\\concrete\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{714DCF72-7FF0-43CE-B7E5-4E5E0FE8D133}|Shared\\Shared.csproj|c:\\users\\furka\\desktop\\subu_web_api\\shared\\data\\abstract\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{714DCF72-7FF0-43CE-B7E5-4E5E0FE8D133}|Shared\\Shared.csproj|solutionrelative:shared\\data\\abstract\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|c:\\users\\furka\\desktop\\subu_web_api\\services\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|solutionrelative:services\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\subu_web_api\\entities\\dtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\subu_web_api\\entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\subu_web_api\\entities\\dtos\\cartitemadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\cartitemadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\subu_web_api\\dal_dataaccesslayer\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|solutionrelative:dal_dataaccesslayer\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\subu_web_api\\dal_dataaccesslayer\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|solutionrelative:dal_dataaccesslayer\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\subu_web_api\\dal_dataaccesslayer\\entityframework\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\dal_dataaccesslayer\\entityframework\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|solutionrelative:dal_dataaccesslayer\\entityframework\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\subu_web_api\\dal_dataaccesslayer\\entityframework\\repositories\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|solutionrelative:dal_dataaccesslayer\\entityframework\\repositories\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\subu_web_api\\dal_dataaccesslayer\\entityframework\\mappings\\cartmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\dal_dataaccesslayer\\entityframework\\mappings\\cartmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|solutionrelative:dal_dataaccesslayer\\entityframework\\mappings\\cartmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\subu_web_api\\dal_dataaccesslayer\\entityframework\\mappings\\cartitemmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\dal_dataaccesslayer\\entityframework\\mappings\\cartitemmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|solutionrelative:dal_dataaccesslayer\\entityframework\\mappings\\cartitemmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\subu_web_api\\dal_dataaccesslayer\\entityframework\\interfacerepositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\dal_dataaccesslayer\\entityframework\\repositories\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|solutionrelative:dal_dataaccesslayer\\entityframework\\repositories\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\entities\\concrete\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.AspNetUserRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.AspNetRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.AspNetUserClaims.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.AspNetUserLogins.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.AspNetUserTokens.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\entities\\concrete\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\entities\\concrete\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\Migrations\\20250901220211_123231.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DAL_DataAccessLayer\\Migrations\\20250901220211_123231.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\services\\concrete\\cartservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|solutionrelative:services\\concrete\\cartservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\dal_dataaccesslayer\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|solutionrelative:dal_dataaccesslayer\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\dal_dataaccesslayer\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|solutionrelative:dal_dataaccesslayer\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\services\\automapper\\profiles\\cartmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|solutionrelative:services\\automapper\\profiles\\cartmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\entities\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\entities\\dtos\\cartitemadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\cartitemadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\services\\automapper\\profiles\\productmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|solutionrelative:services\\automapper\\profiles\\productmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\dal_dataaccesslayer\\entityframework\\interfacerepositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|solutionrelative:dal_dataaccesslayer\\entityframework\\interfacerepositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\subu_web_api\\dal_dataaccesslayer\\entityframework\\interfacerepositories\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\dal_dataaccesslayer\\entityframework\\interfacerepositories\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|solutionrelative:dal_dataaccesslayer\\entityframework\\interfacerepositories\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\subu_web_api\\dal_dataaccesslayer\\entityframework\\contexts\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\dal_dataaccesslayer\\entityframework\\contexts\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3E16EF5-9AAB-4758-9841-EFBC3485A9AD}|DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj|solutionrelative:dal_dataaccesslayer\\entityframework\\contexts\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\subu_web_api\\entities\\dtos\\productadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\entities\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\services\\concrete\\productservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|solutionrelative:services\\concrete\\productservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\entities\\dtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\entities\\dtos\\productadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C66BFA0E-E2F8-43E2-8631-004427411976}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\productadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{714DCF72-7FF0-43CE-B7E5-4E5E0FE8D133}|Shared\\Shared.csproj|c:\\users\\furka\\desktop\\subu_web_api\\shared\\utilities(ara\u00E7lar)\\concrete\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\services\\abstract\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|solutionrelative:services\\abstract\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714DCF72-7FF0-43CE-B7E5-4E5E0FE8D133}|Shared\\Shared.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\shared\\data\\concrete\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714DCF72-7FF0-43CE-B7E5-4E5E0FE8D133}|Shared\\Shared.csproj|solutionrelative:shared\\data\\concrete\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714DCF72-7FF0-43CE-B7E5-4E5E0FE8D133}|Shared\\Shared.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\shared\\data\\abstract\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714DCF72-7FF0-43CE-B7E5-4E5E0FE8D133}|Shared\\Shared.csproj|solutionrelative:shared\\data\\abstract\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\services\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF501A74-4EA1-4311-8872-DBDC73A62010}|Services\\Services.csproj|solutionrelative:services\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714DCF72-7FF0-43CE-B7E5-4E5E0FE8D133}|Shared\\Shared.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\shared\\utilities(ara\u00E7lar)\\concrete\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{714DCF72-7FF0-43CE-B7E5-4E5E0FE8D133}|Shared\\Shared.csproj|solutionrelative:shared\\utilities(ara\u00E7lar)\\concrete\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64AAC38A-2A81-483B-822C-F47ADA1FDFE2}|API\\API.csproj|c:\\users\\furka\\desktop\\subu_web_api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64AAC38A-2A81-483B-822C-F47ADA1FDFE2}|API\\API.csproj|c:\\users\\furka\\desktop\\\u00E7ar\u015Famba hazirli\u011Fi\\ecommerce_web_api-main\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64AAC38A-2A81-483B-822C-F47ADA1FDFE2}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -118,93 +153,91 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CartDto.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Dtos\\CartDto.cs",
-              "RelativeDocumentMoniker": "Entities\\Dtos\\CartDto.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Dtos\\CartDto.cs",
-              "RelativeToolTip": "Entities\\Dtos\\CartDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T07:27:37.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CartItemDto.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Dtos\\CartItemDto.cs",
-              "RelativeDocumentMoniker": "Entities\\Dtos\\CartItemDto.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Dtos\\CartItemDto.cs",
-              "RelativeToolTip": "Entities\\Dtos\\CartItemDto.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T07:26:52.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductMappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Services\\AutoMapper\\Profiles\\ProductMappingProfile.cs",
-              "RelativeDocumentMoniker": "Services\\AutoMapper\\Profiles\\ProductMappingProfile.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Services\\AutoMapper\\Profiles\\ProductMappingProfile.cs",
-              "RelativeToolTip": "Services\\AutoMapper\\Profiles\\ProductMappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:18:12.608Z",
+              "DocumentIndex": 1,
+              "Title": "dbo.Products [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.Products.sql",
+              "ToolTip": "dbo.Products [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-01T22:33:32.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CartMappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Services\\AutoMapper\\Profiles\\CartMappingProfile.cs",
-              "RelativeDocumentMoniker": "Services\\AutoMapper\\Profiles\\CartMappingProfile.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Services\\AutoMapper\\Profiles\\CartMappingProfile.cs",
-              "RelativeToolTip": "Services\\AutoMapper\\Profiles\\CartMappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T07:28:38.709Z",
+              "Title": "dbo.Carts [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.Carts.sql",
+              "ToolTip": "dbo.Carts [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-01T22:26:59.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CartServiceManager.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Services\\Concrete\\CartServiceManager.cs",
-              "RelativeDocumentMoniker": "Services\\Concrete\\CartServiceManager.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Services\\Concrete\\CartServiceManager.cs",
-              "RelativeToolTip": "Services\\Concrete\\CartServiceManager.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAgwFgAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:55:00.398Z",
+              "DocumentIndex": 13,
+              "Title": "dbo.AspNetUserTokens [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.AspNetUserTokens.sql",
+              "ToolTip": "dbo.AspNetUserTokens [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-01T22:11:14.458Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ICartService.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Services\\Abstract\\ICartService.cs",
-              "RelativeDocumentMoniker": "Services\\Abstract\\ICartService.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Services\\Abstract\\ICartService.cs",
-              "RelativeToolTip": "Services\\Abstract\\ICartService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:53:30.673Z",
+              "DocumentIndex": 4,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-01T22:10:45.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
+              "Title": "dbo.AspNetRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.AspNetRoles.sql",
+              "ToolTip": "dbo.AspNetRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-01T22:10:32.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250901220211_123231.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\Migrations\\20250901220211_123231.cs",
+              "RelativeDocumentMoniker": "DAL_DataAccessLayer\\Migrations\\20250901220211_123231.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\Migrations\\20250901220211_123231.cs",
+              "RelativeToolTip": "DAL_DataAccessLayer\\Migrations\\20250901220211_123231.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T22:02:11.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartMapping.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\EntityFramework\\Mappings\\CartMapping.cs",
+              "RelativeDocumentMoniker": "DAL_DataAccessLayer\\EntityFramework\\Mappings\\CartMapping.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\EntityFramework\\Mappings\\CartMapping.cs",
+              "RelativeToolTip": "DAL_DataAccessLayer\\EntityFramework\\Mappings\\CartMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T20:39:28.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Concrete\\Cart.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Concrete\\Cart.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Cart.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Concrete\\Cart.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Concrete\\Cart.cs",
               "RelativeToolTip": "Entities\\Concrete\\Cart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -214,140 +247,33 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Concrete\\Product.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\Product.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Concrete\\Product.cs",
-              "RelativeToolTip": "Entities\\Concrete\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Title": "CartItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\EntityFramework\\Repositories\\CartItemRepository.cs",
+              "RelativeDocumentMoniker": "DAL_DataAccessLayer\\EntityFramework\\Repositories\\CartItemRepository.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\EntityFramework\\Repositories\\CartItemRepository.cs",
+              "RelativeToolTip": "DAL_DataAccessLayer\\EntityFramework\\Repositories\\CartItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAEwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T08:47:37.876Z",
+              "WhenOpened": "2024-08-14T20:50:36.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EfEntityRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Data\\Concrete\\EntityFramework\\EfEntityRepositoryBase.cs",
-              "RelativeDocumentMoniker": "Shared\\Data\\Concrete\\EntityFramework\\EfEntityRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Data\\Concrete\\EntityFramework\\EfEntityRepositoryBase.cs",
-              "RelativeToolTip": "Shared\\Data\\Concrete\\EntityFramework\\EfEntityRepositoryBase.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAIwFEAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:18:12.589Z",
+              "DocumentIndex": 0,
+              "Title": "dbo.CartItem [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.CartItem.sql",
+              "ToolTip": "dbo.CartItem [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-01T22:27:01.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IEntityRepository.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Data\\Abstract\\IEntityRepository.cs",
-              "RelativeDocumentMoniker": "Shared\\Data\\Abstract\\IEntityRepository.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Data\\Abstract\\IEntityRepository.cs",
-              "RelativeToolTip": "Shared\\Data\\Abstract\\IEntityRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAowBEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:18:12.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Services\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "Services\\Extensions\\ServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Services\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "Services\\Extensions\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:18:12.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Concrete\\CartItem.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\CartItem.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Concrete\\CartItem.cs",
-              "RelativeToolTip": "Entities\\Concrete\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:46:07.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Dtos\\ProductUpdateDto.cs",
-              "RelativeDocumentMoniker": "Entities\\Dtos\\ProductUpdateDto.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Dtos\\ProductUpdateDto.cs",
-              "RelativeToolTip": "Entities\\Dtos\\ProductUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:18:12.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Concrete\\User.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\User.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Concrete\\User.cs",
-              "RelativeToolTip": "Entities\\Concrete\\User.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T07:16:57.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CartItemAddDto.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Dtos\\CartItemAddDto.cs",
-              "RelativeDocumentMoniker": "Entities\\Dtos\\CartItemAddDto.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Dtos\\CartItemAddDto.cs",
-              "RelativeToolTip": "Entities\\Dtos\\CartItemAddDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T07:26:16.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "DAL_DataAccessLayer\\UnitOfWork\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeToolTip": "DAL_DataAccessLayer\\UnitOfWork\\UnitOfWork.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAQwBgAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:42:38.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\UnitOfWork\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "DAL_DataAccessLayer\\UnitOfWork\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\UnitOfWork\\IUnitOfWork.cs",
-              "RelativeToolTip": "DAL_DataAccessLayer\\UnitOfWork\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:42:25.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 3,
               "Title": "CartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\EntityFramework\\Repositories\\CartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\EntityFramework\\Repositories\\CartRepository.cs",
               "RelativeDocumentMoniker": "DAL_DataAccessLayer\\EntityFramework\\Repositories\\CartRepository.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\EntityFramework\\Repositories\\CartRepository.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\EntityFramework\\Repositories\\CartRepository.cs",
               "RelativeToolTip": "DAL_DataAccessLayer\\EntityFramework\\Repositories\\CartRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -356,102 +282,310 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CartItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\EntityFramework\\Repositories\\CartItemRepository.cs",
-              "RelativeDocumentMoniker": "DAL_DataAccessLayer\\EntityFramework\\Repositories\\CartItemRepository.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\EntityFramework\\Repositories\\CartItemRepository.cs",
-              "RelativeToolTip": "DAL_DataAccessLayer\\EntityFramework\\Repositories\\CartItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:50:36.793Z",
+              "DocumentIndex": 12,
+              "Title": "dbo.AspNetUserLogins [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.AspNetUserLogins.sql",
+              "ToolTip": "dbo.AspNetUserLogins [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-01T22:11:21.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CartMapping.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\EntityFramework\\Mappings\\CartMapping.cs",
-              "RelativeDocumentMoniker": "DAL_DataAccessLayer\\EntityFramework\\Mappings\\CartMapping.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\EntityFramework\\Mappings\\CartMapping.cs",
-              "RelativeToolTip": "DAL_DataAccessLayer\\EntityFramework\\Mappings\\CartMapping.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA6wBQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:39:28.535Z",
+              "DocumentIndex": 11,
+              "Title": "dbo.AspNetUserClaims [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.AspNetUserClaims.sql",
+              "ToolTip": "dbo.AspNetUserClaims [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-01T22:11:24.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 6,
               "Title": "CartItemMapping.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\EntityFramework\\Mappings\\CartItemMapping.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\EntityFramework\\Mappings\\CartItemMapping.cs",
               "RelativeDocumentMoniker": "DAL_DataAccessLayer\\EntityFramework\\Mappings\\CartItemMapping.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\EntityFramework\\Mappings\\CartItemMapping.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\EntityFramework\\Mappings\\CartItemMapping.cs",
               "RelativeToolTip": "DAL_DataAccessLayer\\EntityFramework\\Mappings\\CartItemMapping.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBwAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T20:49:51.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbo.AspNetUserRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NewDB3/True/SqlTable/dbo.AspNetUserRoles.sql",
+              "ToolTip": "dbo.AspNetUserRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-01T22:11:35.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "ICartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\EntityFramework\\InterfaceRepositories\\ICartRepository.cs",
-              "RelativeDocumentMoniker": "DAL_DataAccessLayer\\EntityFramework\\InterfaceRepositories\\ICartRepository.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\EntityFramework\\InterfaceRepositories\\ICartRepository.cs",
-              "RelativeToolTip": "DAL_DataAccessLayer\\EntityFramework\\InterfaceRepositories\\ICartRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Title": "CartMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Services\\AutoMapper\\Profiles\\CartMappingProfile.cs",
+              "RelativeDocumentMoniker": "Services\\AutoMapper\\Profiles\\CartMappingProfile.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Services\\AutoMapper\\Profiles\\CartMappingProfile.cs",
+              "RelativeToolTip": "Services\\AutoMapper\\Profiles\\CartMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:38:43.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ICartItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\EntityFramework\\InterfaceRepositories\\ICartItemRepository.cs",
-              "RelativeDocumentMoniker": "DAL_DataAccessLayer\\EntityFramework\\InterfaceRepositories\\ICartItemRepository.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\EntityFramework\\InterfaceRepositories\\ICartItemRepository.cs",
-              "RelativeToolTip": "DAL_DataAccessLayer\\EntityFramework\\InterfaceRepositories\\ICartItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:49:18.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "MyDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\EntityFramework\\Contexts\\MyDbContext.cs",
-              "RelativeDocumentMoniker": "DAL_DataAccessLayer\\EntityFramework\\Contexts\\MyDbContext.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\EntityFramework\\Contexts\\MyDbContext.cs",
-              "RelativeToolTip": "DAL_DataAccessLayer\\EntityFramework\\Contexts\\MyDbContext.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA5wDwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:37:59.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T07:28:38.709Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "ProductAddDto.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Dtos\\ProductAddDto.cs",
-              "RelativeDocumentMoniker": "Entities\\Dtos\\ProductAddDto.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Dtos\\ProductAddDto.cs",
-              "RelativeToolTip": "Entities\\Dtos\\ProductAddDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Title": "ProductMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Services\\AutoMapper\\Profiles\\ProductMappingProfile.cs",
+              "RelativeDocumentMoniker": "Services\\AutoMapper\\Profiles\\ProductMappingProfile.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Services\\AutoMapper\\Profiles\\ProductMappingProfile.cs",
+              "RelativeToolTip": "Services\\AutoMapper\\Profiles\\ProductMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:18:12.594Z",
+              "WhenOpened": "2024-08-14T20:18:12.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Dtos\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "Entities\\Dtos\\CartItemDto.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Dtos\\CartItemDto.cs",
+              "RelativeToolTip": "Entities\\Dtos\\CartItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T07:26:52.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CartItemAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Dtos\\CartItemAddDto.cs",
+              "RelativeDocumentMoniker": "Entities\\Dtos\\CartItemAddDto.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Dtos\\CartItemAddDto.cs",
+              "RelativeToolTip": "Entities\\Dtos\\CartItemAddDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T07:26:16.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CartServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Services\\Concrete\\CartServiceManager.cs",
+              "RelativeDocumentMoniker": "Services\\Concrete\\CartServiceManager.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Services\\Concrete\\CartServiceManager.cs",
+              "RelativeToolTip": "Services\\Concrete\\CartServiceManager.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAlwGkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T20:55:00.398Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "DAL_DataAccessLayer\\UnitOfWork\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeToolTip": "DAL_DataAccessLayer\\UnitOfWork\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T20:42:25.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Concrete\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\User.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Concrete\\User.cs",
+              "RelativeToolTip": "Entities\\Concrete\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T07:16:57.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Concrete\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Product.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Concrete\\Product.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T08:47:37.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Concrete\\CartItem.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\CartItem.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Concrete\\CartItem.cs",
+              "RelativeToolTip": "Entities\\Concrete\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T20:46:07.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "DAL_DataAccessLayer\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "DAL_DataAccessLayer\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T20:42:38.713Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 25,
+              "Title": "ICartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\EntityFramework\\InterfaceRepositories\\ICartRepository.cs",
+              "RelativeDocumentMoniker": "DAL_DataAccessLayer\\EntityFramework\\InterfaceRepositories\\ICartRepository.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\EntityFramework\\InterfaceRepositories\\ICartRepository.cs",
+              "RelativeToolTip": "DAL_DataAccessLayer\\EntityFramework\\InterfaceRepositories\\ICartRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T20:38:43.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ICartItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\EntityFramework\\InterfaceRepositories\\ICartItemRepository.cs",
+              "RelativeDocumentMoniker": "DAL_DataAccessLayer\\EntityFramework\\InterfaceRepositories\\ICartItemRepository.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\EntityFramework\\InterfaceRepositories\\ICartItemRepository.cs",
+              "RelativeToolTip": "DAL_DataAccessLayer\\EntityFramework\\InterfaceRepositories\\ICartItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T20:49:18.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\EntityFramework\\Contexts\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "DAL_DataAccessLayer\\EntityFramework\\Contexts\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\EntityFramework\\Contexts\\MyDbContext.cs",
+              "RelativeToolTip": "DAL_DataAccessLayer\\EntityFramework\\Contexts\\MyDbContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA6wDYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T20:37:59.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CartDto.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Dtos\\CartDto.cs",
+              "RelativeDocumentMoniker": "Entities\\Dtos\\CartDto.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Dtos\\CartDto.cs",
+              "RelativeToolTip": "Entities\\Dtos\\CartDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T07:27:37.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProductServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Services\\Concrete\\ProductServiceManager.cs",
+              "RelativeDocumentMoniker": "Services\\Concrete\\ProductServiceManager.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Services\\Concrete\\ProductServiceManager.cs",
+              "RelativeToolTip": "Services\\Concrete\\ProductServiceManager.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwFIAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T21:33:53.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProductAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Dtos\\ProductAddDto.cs",
+              "RelativeDocumentMoniker": "Entities\\Dtos\\ProductAddDto.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Dtos\\ProductAddDto.cs",
+              "RelativeToolTip": "Entities\\Dtos\\ProductAddDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T20:18:12.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Services\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Services\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Services\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Services\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBYAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T20:18:12.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IEntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Shared\\Data\\Abstract\\IEntityRepository.cs",
+              "RelativeDocumentMoniker": "Shared\\Data\\Abstract\\IEntityRepository.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Shared\\Data\\Abstract\\IEntityRepository.cs",
+              "RelativeToolTip": "Shared\\Data\\Abstract\\IEntityRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T20:18:12.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EfEntityRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Shared\\Data\\Concrete\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Shared\\Data\\Concrete\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Shared\\Data\\Concrete\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "RelativeToolTip": "Shared\\Data\\Concrete\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAIwFEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T20:18:12.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Dtos\\ProductUpdateDto.cs",
+              "RelativeDocumentMoniker": "Entities\\Dtos\\ProductUpdateDto.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Entities\\Dtos\\ProductUpdateDto.cs",
+              "RelativeToolTip": "Entities\\Dtos\\ProductUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T20:18:12.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Services\\Abstract\\ICartService.cs",
+              "RelativeDocumentMoniker": "Services\\Abstract\\ICartService.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Services\\Abstract\\ICartService.cs",
+              "RelativeToolTip": "Services\\Abstract\\ICartService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwA4AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T20:53:30.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "DataResult.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Utilities(ara\u00E7lar)\\Concrete\\DataResult.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Shared\\Utilities(ara\u00E7lar)\\Concrete\\DataResult.cs",
               "RelativeDocumentMoniker": "Shared\\Utilities(ara\u00E7lar)\\Concrete\\DataResult.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Utilities(ara\u00E7lar)\\Concrete\\DataResult.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\Shared\\Utilities(ara\u00E7lar)\\Concrete\\DataResult.cs",
               "RelativeToolTip": "Shared\\Utilities(ara\u00E7lar)\\Concrete\\DataResult.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAADwvxYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -459,11 +593,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 37,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\API\\Program.cs",
+              "ToolTip": "C:\\Users\\furka\\Desktop\\\u00C7AR\u015EAMBA HAZIRLI\u011EI\\ecommerce_Web_API-main\\API\\Program.cs",
               "RelativeToolTip": "API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

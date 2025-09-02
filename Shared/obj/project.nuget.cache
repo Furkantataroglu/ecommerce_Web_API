@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CyCupHpEufk=",
+  "dgSpecHash": "IXJHYB8G5zM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Shared.csproj",
+  "projectFilePath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Shared\\Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.7\\microsoft.entityframeworkcore.8.0.7.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.7\\microsoft.entityframeworkcore.abstractions.8.0.7.nupkg.sha512",

@@ -22,5 +22,16 @@ namespace Shared.Data.Abstract
         Task DeleteAsync(T entity);
         Task<bool> AnyAsync(Expression<Func<T, bool>> predicate); //vereceğimiz parametrelere göre tabloda var mı yok mu bakma
         Task<int> CountAsync(Expression<Func<T, bool>> predicate);
+        Task RemoveRangeAsync(IList<T> entities);
+        
+        // ThenInclude desteği için yeni method'lar
+        // ÖRNEK: query => query.Include(c => c.CartItems).ThenInclude(ci => ci.Product)
+        Task<T> GetWithIncludesAsync(Expression<Func<T, bool>> predicate, 
+            Func<IQueryable<T>, IQueryable<T>> includes = null);
+        
+        // ThenInclude desteği ile liste getirme
+        // ÖRNEK: query => query.Include(p => p.Category).OrderBy(p => p.Name)
+        Task<IList<T>> GetAllWithIncludesAsync(Expression<Func<T, bool>> predicate = null, 
+            Func<IQueryable<T>, IQueryable<T>> includes = null);
     }
 }

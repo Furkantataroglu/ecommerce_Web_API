@@ -14,7 +14,7 @@ namespace DAL_DataAccessLayer.Abstarct
         IUserRepository Users { get; } //unitofwork.Users gibi bir çağırım. 
         IProductRepository Products { get; }
         ICartRepository Carts { get; }
-        ICartItemRepository CartItem { get; }
+        ICartItemRepository CartItems { get; }
         //IRoleRepository Roles { get; }
         //IHospitalRepository Hospitals {get;}  gibi
         Task<int> SaveAsync();

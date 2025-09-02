@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\furka\\Desktop\\Subu_Web_API\\API\\API.csproj": {}
+    "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\furka\\Desktop\\Subu_Web_API\\API\\API.csproj": {
+    "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\API\\API.csproj",
+        "projectPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\API\\API.csproj",
         "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\API\\obj\\",
+        "outputPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,21 +26,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj"
+              "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj"
               },
-              "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Services\\Services.csproj"
+              "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Services\\Services.csproj"
               },
-              "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Shared.csproj"
+              "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Shared\\Shared.csproj"
               }
             }
           }
@@ -50,7 +53,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -58,21 +62,21 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[9.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[9.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[9.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[9.0.4, )"
             }
           },
           "imports": [
@@ -94,21 +98,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj": {
+    "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj",
         "projectName": "DAL_DataAccessLayer",
-        "projectPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -116,18 +124,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Entities.csproj"
+              "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Shared.csproj"
+              "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Shared\\Shared.csproj"
               }
             }
           }
@@ -141,7 +148,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -192,21 +200,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Entities.csproj": {
+    "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -214,15 +226,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Shared.csproj"
+              "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Shared\\Shared.csproj"
               }
             }
           }
@@ -236,7 +247,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -263,21 +275,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Services\\Services.csproj": {
+    "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Services\\Services.csproj",
+        "projectPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Services\\obj\\",
+        "outputPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -285,18 +301,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj"
+              "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\DAL_DataAccessLayer\\DAL_DataAccessLayer.csproj"
               },
-              "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Entities\\Entities.csproj"
+              "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Entities\\Entities.csproj"
               }
             }
           }
@@ -310,7 +325,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -337,21 +353,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Shared.csproj": {
+    "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\Desktop\\Subu_Web_API\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\furka\\Desktop\\ÇARŞAMBA HAZIRLIĞI\\ecommerce_Web_API-main\\Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -359,7 +379,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -377,7 +396,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -404,7 +424,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

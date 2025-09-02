@@ -77,7 +77,44 @@ namespace Shared.Data.Concrete.EntityFramework
             return await _context.Set<TEntity>().FindAsync(id);
         }
 
-   
+        public async Task RemoveRangeAsync(IList<TEntity> entities)
+        {
+            await Task.Run(() => { _context.Set<TEntity>().RemoveRange(entities); });
+        }
+
+        // ThenInclude desteği ile tek entity getirme
+        // ÖRNEK: query => query.Include(c => c.CartItems).ThenInclude(ci => ci.Product)
+        public async Task<TEntity> GetWithIncludesAsync(Expression<Func<TEntity, bool>> predicate, 
+            Func<IQueryable<TEntity>, IQueryable<TEntity>> includes = null)
+        {
+            IQueryable<TEntity> query = _context.Set<TEntity>();
+            if (predicate != null)
+            {
+                query = query.Where(predicate);
+            }
+            if (includes != null)
+            {
+                query = includes(query);
+            }
+            return await query.SingleOrDefaultAsync();
+        }
+
+        // ThenInclude desteği ile liste getirme
+        // ÖRNEK: query => query.Include(p => p.Category).OrderBy(p => p.Name)
+        public async Task<IList<TEntity>> GetAllWithIncludesAsync(Expression<Func<TEntity, bool>> predicate = null, 
+            Func<IQueryable<TEntity>, IQueryable<TEntity>> includes = null)
+        {
+            IQueryable<TEntity> query = _context.Set<TEntity>();
+            if (predicate != null)
+            {
+                query = query.Where(predicate);
+            }
+            if (includes != null)
+            {
+                query = includes(query);
+            }
+            return await query.ToListAsync();
+        }
 
         public async Task UpdateAsync(TEntity entity)
         {
